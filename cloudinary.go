@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	goservice "github.com/baozhenglab/go-sdk"
+	goservice "github.com/baozhenglab/go-sdk/v2"
 )
 
 //from https://github.com/rootsongjc/cloudinary-go/blob/master/service.go
