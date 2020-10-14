@@ -14,6 +14,7 @@ import (
 //from https://github.com/rootsongjc/cloudinary-go/blob/master/service.go
 
 type cloudinaryService struct {
+	// format cloudinary://api_key:api_secret@cloud_name
 	uri              string
 	cloudName        string
 	apiKey           string
